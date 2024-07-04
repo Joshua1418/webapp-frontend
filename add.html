@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends' List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header">
+           <h2>Ajouter dans la liste d'amis.</h2>
+        </div>
+    </header>
+    <main>
+        <section class="mainContainer" id="mainContainer">
+            <div class="subContainer">
+                <input type="text" name="nom" id="nom" placeholder="Nom">
+                <input type="text" name="postnom" id="postnom" placeholder="Postnom">
+                <input type="text" name="prenom" id="prenom" placeholder="Prénom">
+            </div>
+            <div class="buttonContainer">
+                <button onclick="addFriend()">Ajouter</button>
+                <button onclick="seeFriend()">Annuler</button>
+            </div>
+        </section>
+        <div class="aboutContainer">
+            <p>Powered by <span class="about" onclick="goToSeeTheCreatorOfThisWebApp()">Josué Nzanza</span></p>
+        </div>
+    </main>
+</body>
+</html>

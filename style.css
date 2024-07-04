@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    background-color:rgb(169, 165, 117);
+    height: 3em;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+
+    
+}
+.header h2 {
+    padding-top: 0.4em;
+    color: beige;
+}
+.header .addFriend{
+    margin-top: 0.4em;
+    margin-right: 2em;
+}
+.mainContainer {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8.3em;
+    margin-left: 0.8em;
+    margin-right: 0.8em;
+    border-radius: 0.9em;
+    background-color: rgb(230, 230, 195);
+}
+.mainContainer .subContainer {
+    display: grid;
+    gap: 1em;
+    margin-top: 5em;
+    margin-bottom: 2em;
+}
+.subContainer input{
+    font-size: 1.3rem;
+    padding: 0.7em;
+    border-radius: 0.5em;
+    border: none;
+}
+.buttonContainer {
+        margin: 2em 0.7em;
+        padding: 1em;
+}
+.buttonContainer button {
+    font-size: 1.3rem;
+    padding: 0.7em 1.1em;
+    gap: 0.7em;
+    border-radius: 0.5em;
+    border: none;
+    background-color:rgb(169, 165, 117);
+    color: rgb(43, 43, 35);
+    cursor: pointer;
+}
+.mainProfil {
+    margin-top: 6em;
+    margin-bottom: 1em;
+}
+.profilContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-style: solid;
+    border-width: 0 0 0.3em 0.4em;
+    border-color: rgba(167, 91, 91, 0.84);
+    padding: 0.7em;
+    margin: 1em 0.7em 0 0.7em;
+}
+.profilContainer .personProfil p{
+      padding: 0.3em;
+      font-size: 1.2rem;
+      font-family: 'Lato' sans-serif;
+
+}
+.profilContainer .trashContainer {
+    margin-top: 2em;
+}
+.aboutContainer{
+    text-align: center;
+    margin-top: 1em;
+}
+.about{
+    text-decoration: underline;
+}
